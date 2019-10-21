@@ -41,13 +41,14 @@ export default {
 
 <style scoped>
 #calculator {
-  font-size: 6em;
+  font-size: 10vh;
   height: 100%;
   display: flex;
   flex-direction: column;
   color: #000000;
   background-color: #000000;
   padding: 8px;
+  overflow: hidden;
 }
 
 #keyboard {
